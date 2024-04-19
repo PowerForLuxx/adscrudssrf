@@ -1,0 +1,62 @@
+.Ad-item {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Ad-item h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Ad-item p {
+  margin-top: 10px;
+}
+
+.Ad-item button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Ad-item button:hover {
+  background-color: #f44336;
+}
+
+.ad-edit-form {
+  margin-top: 20px;
+  background-color: #f0f0f0; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ad-edit-form input,
+.ad-edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ad-edit-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ad-edit-form button:hover {
+  background-color: #45a049;
+}

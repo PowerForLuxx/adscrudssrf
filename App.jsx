@@ -1,9 +1,7 @@
 import React, { Suspense } from 'react';
-import './App.css';
-import { AdsProvider } from './context/AdsContext';
-
-const AddAdForm = React.lazy(() => import('./components/AddAdForm'));
-const AdsList = React.lazy(() => import('./components/AdsList'));
+import { AdsProvider } from './src/context/AdsContext';
+import AddAdForm from './src/components/AddAdForm';
+import AdsList from './src/components/AdsList';
 
 function App() {
     return (
